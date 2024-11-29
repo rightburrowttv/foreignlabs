@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Funnel Sans", sans-serif;
+    margin: 0px;
+}
+
+.topnav {
+    background-color: #80559b;
+}
+
+.topnav .links a {
+    color: #ffffff;
+}
+
+.topnav .links a:hover {
+    color: #d0d0d0;
+}
+
+.mainblock {
+    height: 600px;
+    width: 100%;
+    background-color: #6e4c87;
+    box-sizing: border-box;
+    padding-top: 96px;
+    text-align: center;
+}
+
+.mainblock #aboutus {
+    font-size: 24px;
+    width: 600px;
+    margin-top: 64px;
+    display: inline-block;
+}
+
+.mainblock * { margin: 0px; color: white; }
+
+.echoblock {
+    height: 450px;
+    width: 100%;
+    background-color: #4e365f;
+    box-sizing: border-box;
+    padding-top: 96px;
+    text-align: center;
+}
+
+.echoblock #aboutus {
+    font-size: 24px;
+    width: 600px;
+    margin-top: 64px;
+    display: inline-block;
+}
+
+.echoblock a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 16px;
+    border-radius: 16px;
+    border: 10px solid #2e4269;
+    background-color: #2e4269;
+}
+
+.echoblock * { margin: 0px; color: white; }
+
+.members {
+    height: 250px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.members .member {
+    height: 250px;
+    width: 190px;
+    background-color: #67487d;
+    margin-right: 4px;
+    margin-left: 4px;
+    box-sizing: border-box;
+    padding-top: 16px;
+    border-radius: 25px;
+}
+
+.join {
+    background-color: #422755;
+    height: 64px;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}

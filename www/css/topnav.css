@@ -1,0 +1,39 @@
+.topnav {
+    background-color: #dcedbf;
+    height: 64px;
+    width: 100%;
+}
+
+.topnav #logo {
+    margin-left: 8px;
+    margin-top: 8px;
+    float: left;
+}
+
+.topnav .links {
+    height: 64px;
+    width: 400px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.topnav .links a {
+    color: #3b5c72;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.topnav .links a:hover {
+    color: #4b738e;
+}
+
+.footer {
+    background-color: #dcedbf;
+    height: 64px;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}

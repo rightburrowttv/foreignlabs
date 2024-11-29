@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Funnel Sans", sans-serif;
+    margin: 0px;
+}
+
+.mainblock {
+    height: 600px;
+    width: 100%;
+    background-color: #7f9cc3;
+    box-sizing: border-box;
+    padding-top: 96px;
+    text-align: center;
+}
+
+.mainblock #aboutus {
+    font-size: 24px;
+    width: 600px;
+    margin-top: 64px;
+    display: inline-block;
+}
+
+.mainblock * { margin: 0px; color: white; }
+
+.echoblock {
+    height: 450px;
+    width: 100%;
+    background-color: #556c9b;
+    box-sizing: border-box;
+    padding-top: 96px;
+    text-align: center;
+}
+
+.echoblock #aboutus {
+    font-size: 24px;
+    width: 600px;
+    margin-top: 64px;
+    display: inline-block;
+}
+
+.echoblock a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 16px;
+    border-radius: 16px;
+    border: 10px solid #2e4269;
+    background-color: #2e4269;
+}
+
+.echoblock * { margin: 0px; color: white; }
