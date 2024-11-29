@@ -1,0 +1,27 @@
+{
+  "name": "foreignlabs",
+  "version": "1.0.0",
+  "description": "Foreign Labs Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rightburrowttv/foreignlabs.git"
+  },
+  "author": "Scythe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rightburrowttv/foreignlabs/issues"
+  },
+  "homepage": "https://github.com/rightburrowttv/foreignlabs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
