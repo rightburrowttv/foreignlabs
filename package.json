@@ -4,7 +4,8 @@
   "description": "Foreign Labs Website",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file=.env index.js"
+    "start": "node --env-file=.env index.js",
+    "ssh": "ssh -i 'Foreign.pem' ubuntu@ec2-52-87-247-22.compute-1.amazonaws.com"
   },
   "repository": {
     "type": "git",
