@@ -12,4 +12,4 @@ def Index():
 def Echo():
     return render_template("echo.html")
 
-app.run(host="0.0.0.0", port=8080)
+app.run(host=os.getenv("HOST"), port=os.getenv("PORT"))
